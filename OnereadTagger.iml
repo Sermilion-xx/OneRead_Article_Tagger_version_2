@@ -14,15 +14,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/postgresql-9.4.1212.jre6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$APPLICATION_HOME_DIR$/redist/annotations-java8.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -30,5 +21,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="com.github.stefanbirkner:system-rules:1.16.1" level="project" />
+    <orderEntry type="library" name="org.postgresql:postgresql:9.4.1212.jre7" level="project" />
   </component>
 </module>

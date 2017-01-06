@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723dca56-5d17-437d-9bd9-4c69bdad22f5" name="Default" comment="" />
+    <list default="true" id="723dca56-5d17-437d-9bd9-4c69bdad22f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/base/AbstractTrainer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/base/CentroidClassifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/base/CentroidTrainer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/base/TrainerAbstractFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/data/Database$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/data/Database$SingletonHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/data/Database.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/data/PostgreSQLDoubleArray.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/data/SortMapByValue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/data/StopWordFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/rocchio/RocchioClassifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/rocchio/RocchioTrainer$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/rocchio/RocchioTrainer$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/rocchio/RocchioTrainer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/rocchio/RocchioTrainerFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/utility/Constants.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/utility/Delegate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/utility/exceptions/IllegalArticleIdException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OnereadTagger/utility/exceptions/NoArticleForTagException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/OnereadTagger/AbstractTrainerTests$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/OnereadTagger/AbstractTrainerTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/OnereadTagger/DatabaseTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/OnereadTagger/RocchioTrainerTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/OnereadTagger/TestUtilities.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Sermilion.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_stefanbirkner_system_rules_1_16_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_javatuples_javatuples_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_postgresql_postgresql_9_4_1212_jre7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OnereadTagger.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/english_stopwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/russian_stopwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/AbstractTrainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/CentroidClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/CentroidTrainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/base/TrainerAbstractFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/PostgreSQLDoubleArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/SortMapByValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/StopWordFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/demo/TextTaggerDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rocchio/RocchioClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rocchio/RocchioTrainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rocchio/RocchioTrainerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utility/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utility/Delegate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utility/exceptions/IllegalArticleIdException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utility/exceptions/NoArticleForTagException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/AbstractTrainerTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/DatabaseTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/RocchioTrainerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestUtilities.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,13 +90,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RocchioTrainer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RocchioTrainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioTrainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="168">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,18 +106,82 @@
       <file leaf-file-name="AbstractTrainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/AbstractTrainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="164">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CentroidTrainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/CentroidTrainer.java">
+      <file leaf-file-name="TextTaggerDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/demo/TextTaggerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+            <state relative-caret-position="140">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="177" column="24" lean-forward="false" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="24" />
+              <folding>
+                <marker date="1483739304000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
+                <marker date="1483739304000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
+                <marker date="1483739304000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
+                <marker date="1483739304000" expanded="true" signature="5304:5527" ph="SELECT count... articles" />
+                <marker date="1483739304000" expanded="true" signature="6381:6421" ph="SELECT a.id,... " />
+                <marker date="1483739304000" expanded="true" signature="6381:6593" ph="SELECT a.id,... articles" />
+                <marker date="1483739304000" expanded="true" signature="6381:6627" ph="SELECT a.id,... articles" />
+                <marker date="1483739304000" expanded="true" signature="6381:6628" ph="SELECT a.id,... articles" />
+                <marker date="1483739304000" expanded="true" signature="6381:6689" ph="SELECT a.id,... articles" />
+                <marker date="1483739304000" expanded="true" signature="8298:8396" ph="SELECT * FRO... tags" />
+                <marker date="1483739304000" expanded="true" signature="8455:8473" ph="SELECT * FRO... tags" />
+                <marker date="1483739304000" expanded="true" signature="9727:9848" ph="INSERT INTO tags... " />
+                <marker date="1483739304000" expanded="true" signature="9751:9771" ph="SELECT 'miss... " />
+                <marker date="1483739304000" expanded="true" signature="9751:9848" ph="SELECT 'miss... EXISTS" />
+                <marker date="1483739304000" expanded="true" signature="9790:9847" ph="SELECT 'miss... tags" />
+                <marker date="1483739304000" expanded="true" signature="10090:10186" ph="INSERT INTO tag_langs... " />
+                <marker date="1483739304000" expanded="true" signature="11041:11361" ph="INSERT INTO tag_centroid... " />
+                <marker date="1483739304000" expanded="true" signature="12166:12233" ph="SELECT centr... tag_centroid" />
+                <marker date="1483739304000" expanded="true" signature="13274:13354" ph="select id, n... tags" />
+                <marker date="1483739304000" expanded="true" signature="14640:15065" ph="with all_tag... " />
+                <marker date="1483739304000" expanded="true" signature="14784:14809" ph="select name all_tags" />
+                <marker date="1483739304000" expanded="true" signature="14877:14985" ph="select t.id,... tags" />
+                <marker date="1483739304000" expanded="true" signature="15021:15065" ph="select id, n... inserted" />
+                <marker date="1483739304000" expanded="true" signature="15869:16227" ph="WITH new_val... missingValue" />
+                <marker date="1483739304000" expanded="true" signature="15869:16249" ph="WITH new_val... missingValue" />
+                <marker date="1483739304000" expanded="true" signature="16100:16226" ph="SELECT name new_values" />
+                <marker date="1483739304000" expanded="true" signature="16100:16227" ph="SELECT name new_values" />
+                <marker date="1483739304000" expanded="true" signature="16171:16226" ph="SELECT 1 FRO... upsert" />
+                <marker date="1483739304000" expanded="true" signature="16875:16925" ph="INSERT INTO tag_langs... " />
+                <marker date="1483739304000" expanded="true" signature="17864:18248" ph="WITH new_val... tag_temp" />
+                <marker date="1483739304000" expanded="true" signature="18115:18248" ph="SELECT name,... new_values" />
+                <marker date="1483739304000" expanded="true" signature="18192:18247" ph="SELECT 1 FRO... upsert" />
+                <marker date="1483739304000" expanded="true" signature="19239:19263" ph="DELETE FROM " />
+                <marker date="1483739304000" expanded="true" signature="20082:20098" ph="DELETE FROM " />
+                <marker date="1483739304000" expanded="true" signature="20082:20103" ph="DELETE FROM " />
+                <marker date="1483739304000" expanded="true" signature="20784:20834" ph="SELECT * FRO... tag_temp" />
+                <marker date="1483739304000" expanded="true" signature="20893:20916" ph="SELECT * FRO... tag_temp" />
+                <marker date="1483739304000" expanded="true" signature="21904:22066" ph="SELECT count... " />
+                <marker date="1483739304000" expanded="true" signature="21904:22067" ph="SELECT count... articles" />
+                <marker date="1483739304000" expanded="true" signature="22542:22586" ph="SELECT id FR... tags" />
+                <marker date="1483739304000" expanded="true" signature="23060:23109" ph="SELECT id FR... tags" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RocchioTrainerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioTrainerFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -76,6 +203,9 @@
       <find>No data were fetched</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -96,7 +226,6 @@
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/Exceptions/NoArticleForTagException.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/Utility/SortMapByValue.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/Utility/Delegate.java" />
-        <option value="$PROJECT_DIR$/tests/DatabaseTests.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/rocchio/RocchioClassifier.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/Utility/Database.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/ClusteringFactory.java" />
@@ -110,7 +239,6 @@
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/Factory/TrainerAbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/Factory/RocchioTrainerFactory.java" />
         <option value="$PROJECT_DIR$/tests/CentroidBasedClusteringTests.java" />
-        <option value="$PROJECT_DIR$/tests/RocchioTrainerTest.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/rocchio/RocchioTrainer.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/CentroidTrainer.java" />
         <option value="$PROJECT_DIR$/src/Classifiers/centroid/TrainerFactory/StopWordFactory.java" />
@@ -126,10 +254,16 @@
         <option value="$PROJECT_DIR$/tests/TestUtilities.java" />
         <option value="$PROJECT_DIR$/src/data/StopWordFactory.java" />
         <option value="$PROJECT_DIR$/src/data/SortMapByValue.java" />
-        <option value="$PROJECT_DIR$/src/base/TrainerAbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/rocchio/RocchioTrainerFactory.java" />
+        <option value="$PROJECT_DIR$/tests/RocchioTrainerTest.java" />
         <option value="$PROJECT_DIR$/src/base/CentroidTrainer.java" />
         <option value="$PROJECT_DIR$/src/rocchio/RocchioTrainer.java" />
+        <option value="$PROJECT_DIR$/src/base/AbstractTrainer.java" />
+        <option value="$PROJECT_DIR$/src/rocchio/RocchioTrainerFactory.java" />
+        <option value="$PROJECT_DIR$/src/base/TrainerAbstractFactory.java" />
+        <option value="$PROJECT_DIR$/tests/AbstractTrainerTests.java" />
+        <option value="$PROJECT_DIR$/src/demo/TextTaggerDemo.java" />
+        <option value="$PROJECT_DIR$/tests/DatabaseTests.java" />
+        <option value="$PROJECT_DIR$/src/data/Database.java" />
       </list>
     </option>
   </component>
@@ -140,9 +274,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="32" />
     <option name="width" value="1280" />
-    <option name="height" value="736" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,6 +353,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnereadTagger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnereadTagger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="rocchio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,7 +393,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnereadTagger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnereadTagger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,8 +431,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -281,6 +453,7 @@
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="demo.TextTaggerDemo" />
       <recent name="DatabaseTests" />
       <recent name="Classifiers.centroid.Utility.Database" />
       <recent name="Classifiers.centroid.Utility.Constants" />
@@ -298,36 +471,35 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in OnereadTagger">
-    <configuration default="false" name="DatabaseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="OnereadTagger" />
+  <component name="RunManager" selected="Application.TextTaggerDemo">
+    <configuration default="false" name="TextTaggerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="demo.TextTaggerDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="OnereadTagger" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DatabaseTests.getIdsByTagsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DatabaseTests.getArticlesForTagTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="OnereadTagger" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DatabaseTests" />
-      <option name="METHOD_NAME" value="getIdsByTagsTest" />
+      <option name="METHOD_NAME" value="getArticlesForTagTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -341,15 +513,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RocchioTrainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DatabaseTests.getIdsAndNamesWhereNumberOfTagsMoreThanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="OnereadTagger" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RocchioTrainerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTests" />
+      <option name="METHOD_NAME" value="getIdsAndNamesWhereNumberOfTagsMoreThanTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -362,15 +534,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AbstractTrainerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="OnereadTagger" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AbstractTrainerTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTests" />
+      <option name="METHOD_NAME" value="getTagCountsAndIdsWhereNumOfTagsMoreThanTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -383,15 +555,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="All in OnereadTagger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DatabaseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="OnereadTagger" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTests" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -785,19 +957,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseTests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getIdsByTagsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RocchioTrainerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AbstractTrainerTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in OnereadTagger" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TextTaggerDemo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getArticlesForTagTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getIdsAndNamesWhereNumberOfTagsMoreThanTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DatabaseTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in OnereadTagger" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RocchioTrainerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AbstractTrainerTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getIdsByTagsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DatabaseTests" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TextTaggerDemo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getArticlesForTagTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DatabaseTests.getIdsAndNamesWhereNumberOfTagsMoreThanTest" />
       </list>
     </recent_temporary>
   </component>
@@ -813,48 +985,49 @@
       <updated>1483255573981</updated>
       <workItem from="1483255578625" duration="42896000" />
       <workItem from="1483466863273" duration="5654000" />
-      <workItem from="1483515602630" duration="7985000" />
+      <workItem from="1483515602630" duration="8104000" />
+      <workItem from="1483615492042" duration="9500000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_OnereadTagger - 2017.01.04 at 23h 44m 45s.xml">
-      <configuration name="All in OnereadTagger" configurationId="JUnit" />
+    <history-entry file="DatabaseTests - 2017.01.07 at 00h 43m 01s.xml">
+      <configuration name="DatabaseTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CentroidBasedClusteringTests - 2017.01.04 at 23h 08m 12s.xml">
-      <configuration name="CentroidBasedClusteringTests" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getArticlesForTagTest - 2017.01.06 at 23h 50m 04s.xml">
+      <configuration name="DatabaseTests.getArticlesForTagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CentroidBasedClusteringTests - 2017.01.04 at 23h 28m 29s.xml">
-      <configuration name="CentroidBasedClusteringTests" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getArticlesForTagTest - 2017.01.06 at 23h 51m 09s.xml">
+      <configuration name="DatabaseTests.getArticlesForTagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTests_getAllTempTermsTest - 2017.01.04 at 10h 17m 09s.xml">
-      <configuration name="DatabaseTests.getAllTempTermsTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getArticlesForTagTest - 2017.01.07 at 00h 02m 55s.xml">
+      <configuration name="DatabaseTests.getArticlesForTagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTests_getAllTempTermsTest - 2017.01.04 at 10h 17m 21s.xml">
-      <configuration name="DatabaseTests.getAllTempTermsTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getArticlesForTagTest - 2017.01.07 at 00h 08m 43s.xml">
+      <configuration name="DatabaseTests.getArticlesForTagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTests_getIdsByTagsTest - 2017.01.04 at 10h 50m 27s.xml">
-      <configuration name="DatabaseTests.getIdsByTagsTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getArticlesForTagTest - 2017.01.07 at 00h 36m 13s.xml">
+      <configuration name="DatabaseTests.getArticlesForTagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTests_getIdsCountForTagTest - 2017.01.04 at 10h 33m 23s.xml">
-      <configuration name="DatabaseTests.getIdsCountForTagTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getTagCountsAndIdsWhereNumOfTagsMoreThanTest - 2017.01.07 at 00h 32m 55s.xml">
+      <configuration name="DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTests_getIdsCountForTagTest - 2017.01.04 at 10h 34m 17s.xml">
-      <configuration name="DatabaseTests.getIdsCountForTagTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getTagCountsAndIdsWhereNumOfTagsMoreThanTest - 2017.01.07 at 00h 35m 08s.xml">
+      <configuration name="DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTests_getIdsCountForTagTest - 2017.01.04 at 10h 34m 28s.xml">
-      <configuration name="DatabaseTests.getIdsCountForTagTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getTagCountsAndIdsWhereNumOfTagsMoreThanTest - 2017.01.07 at 00h 42m 41s.xml">
+      <configuration name="DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RocchioTrainerTest - 2017.01.04 at 23h 28m 36s.xml">
-      <configuration name="RocchioTrainerTest" configurationId="JUnit" />
+    <history-entry file="DatabaseTests_getTagCountsAndIdsWhereNumOfTagsMoreThanTest - 2017.01.07 at 00h 43m 10s.xml">
+      <configuration name="DatabaseTests.getTagCountsAndIdsWhereNumOfTagsMoreThanTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56535000" />
+    <option name="totallyTimeSpent" value="66154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1280" height="736" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -865,21 +1038,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2359375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31663975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19224556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.49172577" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.49172577" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29829547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -907,12 +1080,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/data/Database.java</url>
-          <line>373</line>
+          <line>368</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/demo/TextTaggerDemo.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/DatabaseTests.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -925,7 +1110,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -942,43 +1129,47 @@
         <state relative-caret-position="11949">
           <caret line="569" column="5" lean-forward="true" selection-start-line="569" selection-start-column="5" selection-end-line="569" selection-end-column="5" />
           <folding>
-            <marker date="1483562664000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
-            <marker date="1483562664000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
-            <marker date="1483562664000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
-            <marker date="1483562664000" expanded="true" signature="5290:5662" ph="SELECT t.id,... tags" />
-            <marker date="1483562664000" expanded="true" signature="6461:6725" ph="SELECT a.id,... articles" />
-            <marker date="1483562664000" expanded="true" signature="8594:8692" ph="SELECT * FRO... tags" />
-            <marker date="1483562664000" expanded="true" signature="8751:8769" ph="SELECT * FRO... tags" />
-            <marker date="1483562664000" expanded="true" signature="10023:10144" ph="INSERT INTO tags... " />
-            <marker date="1483562664000" expanded="true" signature="10047:10067" ph="SELECT 'miss... " />
-            <marker date="1483562664000" expanded="true" signature="10047:10144" ph="SELECT 'miss... EXISTS" />
-            <marker date="1483562664000" expanded="true" signature="10086:10143" ph="SELECT 'miss... tags" />
-            <marker date="1483562664000" expanded="true" signature="10386:10482" ph="INSERT INTO tag_langs... " />
-            <marker date="1483562664000" expanded="true" signature="11337:11657" ph="INSERT INTO tag_centroid... " />
-            <marker date="1483562664000" expanded="true" signature="12462:12529" ph="SELECT centr... tag_centroid" />
-            <marker date="1483562664000" expanded="true" signature="13570:13650" ph="select id, n... tags" />
-            <marker date="1483562664000" expanded="true" signature="14936:15361" ph="with all_tag... " />
-            <marker date="1483562664000" expanded="true" signature="15080:15105" ph="select name all_tags" />
-            <marker date="1483562664000" expanded="true" signature="15173:15281" ph="select t.id,... tags" />
-            <marker date="1483562664000" expanded="true" signature="15317:15361" ph="select id, n... inserted" />
-            <marker date="1483562664000" expanded="true" signature="16165:16523" ph="WITH new_val... missingValue" />
-            <marker date="1483562664000" expanded="true" signature="16165:16545" ph="WITH new_val... missingValue" />
-            <marker date="1483562664000" expanded="true" signature="16396:16522" ph="SELECT name new_values" />
-            <marker date="1483562664000" expanded="true" signature="16396:16523" ph="SELECT name new_values" />
-            <marker date="1483562664000" expanded="true" signature="16467:16522" ph="SELECT 1 FRO... upsert" />
-            <marker date="1483562664000" expanded="true" signature="17171:17221" ph="INSERT INTO tag_langs... " />
-            <marker date="1483562664000" expanded="true" signature="18160:18544" ph="WITH new_val... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="18411:18544" ph="SELECT name,... new_values" />
-            <marker date="1483562664000" expanded="true" signature="18488:18543" ph="SELECT 1 FRO... upsert" />
-            <marker date="1483562664000" expanded="true" signature="19535:19559" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="20378:20394" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="20378:20399" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="21080:21130" ph="SELECT * FRO... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="21189:21212" ph="SELECT * FRO... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="22200:22362" ph="SELECT count... " />
-            <marker date="1483562664000" expanded="true" signature="22200:22363" ph="SELECT count... articles" />
-            <marker date="1483562664000" expanded="true" signature="22838:22882" ph="SELECT id FR... tags" />
-            <marker date="1483562664000" expanded="true" signature="23356:23405" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
+            <marker date="1483739304000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="5304:5527" ph="SELECT count... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6421" ph="SELECT a.id,... " />
+            <marker date="1483739304000" expanded="true" signature="6381:6593" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6627" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6628" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6689" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="8298:8396" ph="SELECT * FRO... tags" />
+            <marker date="1483739304000" expanded="true" signature="8455:8473" ph="SELECT * FRO... tags" />
+            <marker date="1483739304000" expanded="true" signature="9727:9848" ph="INSERT INTO tags... " />
+            <marker date="1483739304000" expanded="true" signature="9751:9771" ph="SELECT 'miss... " />
+            <marker date="1483739304000" expanded="true" signature="9751:9848" ph="SELECT 'miss... EXISTS" />
+            <marker date="1483739304000" expanded="true" signature="9790:9847" ph="SELECT 'miss... tags" />
+            <marker date="1483739304000" expanded="true" signature="10090:10186" ph="INSERT INTO tag_langs... " />
+            <marker date="1483739304000" expanded="true" signature="11041:11361" ph="INSERT INTO tag_centroid... " />
+            <marker date="1483739304000" expanded="true" signature="12166:12233" ph="SELECT centr... tag_centroid" />
+            <marker date="1483739304000" expanded="true" signature="13274:13354" ph="select id, n... tags" />
+            <marker date="1483739304000" expanded="true" signature="14640:15065" ph="with all_tag... " />
+            <marker date="1483739304000" expanded="true" signature="14784:14809" ph="select name all_tags" />
+            <marker date="1483739304000" expanded="true" signature="14877:14985" ph="select t.id,... tags" />
+            <marker date="1483739304000" expanded="true" signature="15021:15065" ph="select id, n... inserted" />
+            <marker date="1483739304000" expanded="true" signature="15869:16227" ph="WITH new_val... missingValue" />
+            <marker date="1483739304000" expanded="true" signature="15869:16249" ph="WITH new_val... missingValue" />
+            <marker date="1483739304000" expanded="true" signature="16100:16226" ph="SELECT name new_values" />
+            <marker date="1483739304000" expanded="true" signature="16100:16227" ph="SELECT name new_values" />
+            <marker date="1483739304000" expanded="true" signature="16171:16226" ph="SELECT 1 FRO... upsert" />
+            <marker date="1483739304000" expanded="true" signature="16875:16925" ph="INSERT INTO tag_langs... " />
+            <marker date="1483739304000" expanded="true" signature="17864:18248" ph="WITH new_val... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="18115:18248" ph="SELECT name,... new_values" />
+            <marker date="1483739304000" expanded="true" signature="18192:18247" ph="SELECT 1 FRO... upsert" />
+            <marker date="1483739304000" expanded="true" signature="19239:19263" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20082:20098" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20082:20103" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20784:20834" ph="SELECT * FRO... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="20893:20916" ph="SELECT * FRO... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="21904:22066" ph="SELECT count... " />
+            <marker date="1483739304000" expanded="true" signature="21904:22067" ph="SELECT count... articles" />
+            <marker date="1483739304000" expanded="true" signature="22542:22586" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="23060:23109" ph="SELECT id FR... tags" />
           </folding>
         </state>
       </provider>
@@ -988,16 +1179,17 @@
         <state relative-caret-position="231">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="e#2716#2717#0" expanded="false" />
-            <element signature="e#2744#2745#0" expanded="false" />
-            <element signature="e#2775#2776#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2848#2849#0" expanded="false" />
-            <element signature="e#2886#2887#0" expanded="false" />
-            <element signature="e#2917#2918#0" expanded="false" />
-            <element signature="e#2944#2945#0" expanded="false" />
-            <element signature="e#2984#2985#0" expanded="false" />
-            <element signature="e#3016#3017#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2771#2772#0" expanded="false" />
+            <element signature="e#2889#2890#0" expanded="false" />
+            <element signature="e#2919#2920#0" expanded="false" />
+            <element signature="e#2962#2963#0" expanded="false" />
+            <element signature="e#3000#3001#0" expanded="false" />
+            <element signature="e#3031#3032#0" expanded="false" />
+            <element signature="e#3058#3059#0" expanded="false" />
+            <element signature="e#3098#3099#0" expanded="false" />
+            <element signature="e#3130#3131#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1006,7 +1198,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +1217,7 @@
         <state relative-caret-position="567">
           <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,43 +1227,47 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483562664000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
-            <marker date="1483562664000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
-            <marker date="1483562664000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
-            <marker date="1483562664000" expanded="true" signature="5290:5662" ph="SELECT t.id,... tags" />
-            <marker date="1483562664000" expanded="true" signature="6461:6725" ph="SELECT a.id,... articles" />
-            <marker date="1483562664000" expanded="true" signature="8594:8692" ph="SELECT * FRO... tags" />
-            <marker date="1483562664000" expanded="true" signature="8751:8769" ph="SELECT * FRO... tags" />
-            <marker date="1483562664000" expanded="true" signature="10023:10144" ph="INSERT INTO tags... " />
-            <marker date="1483562664000" expanded="true" signature="10047:10067" ph="SELECT 'miss... " />
-            <marker date="1483562664000" expanded="true" signature="10047:10144" ph="SELECT 'miss... EXISTS" />
-            <marker date="1483562664000" expanded="true" signature="10086:10143" ph="SELECT 'miss... tags" />
-            <marker date="1483562664000" expanded="true" signature="10386:10482" ph="INSERT INTO tag_langs... " />
-            <marker date="1483562664000" expanded="true" signature="11337:11657" ph="INSERT INTO tag_centroid... " />
-            <marker date="1483562664000" expanded="true" signature="12462:12529" ph="SELECT centr... tag_centroid" />
-            <marker date="1483562664000" expanded="true" signature="13570:13650" ph="select id, n... tags" />
-            <marker date="1483562664000" expanded="true" signature="14936:15361" ph="with all_tag... " />
-            <marker date="1483562664000" expanded="true" signature="15080:15105" ph="select name all_tags" />
-            <marker date="1483562664000" expanded="true" signature="15173:15281" ph="select t.id,... tags" />
-            <marker date="1483562664000" expanded="true" signature="15317:15361" ph="select id, n... inserted" />
-            <marker date="1483562664000" expanded="true" signature="16165:16523" ph="WITH new_val... missingValue" />
-            <marker date="1483562664000" expanded="true" signature="16165:16545" ph="WITH new_val... missingValue" />
-            <marker date="1483562664000" expanded="true" signature="16396:16522" ph="SELECT name new_values" />
-            <marker date="1483562664000" expanded="true" signature="16396:16523" ph="SELECT name new_values" />
-            <marker date="1483562664000" expanded="true" signature="16467:16522" ph="SELECT 1 FRO... upsert" />
-            <marker date="1483562664000" expanded="true" signature="17171:17221" ph="INSERT INTO tag_langs... " />
-            <marker date="1483562664000" expanded="true" signature="18160:18544" ph="WITH new_val... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="18411:18544" ph="SELECT name,... new_values" />
-            <marker date="1483562664000" expanded="true" signature="18488:18543" ph="SELECT 1 FRO... upsert" />
-            <marker date="1483562664000" expanded="true" signature="19535:19559" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="20378:20394" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="20378:20399" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="21080:21130" ph="SELECT * FRO... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="21189:21212" ph="SELECT * FRO... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="22200:22362" ph="SELECT count... " />
-            <marker date="1483562664000" expanded="true" signature="22200:22363" ph="SELECT count... articles" />
-            <marker date="1483562664000" expanded="true" signature="22838:22882" ph="SELECT id FR... tags" />
-            <marker date="1483562664000" expanded="true" signature="23356:23405" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
+            <marker date="1483739304000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="5304:5527" ph="SELECT count... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6421" ph="SELECT a.id,... " />
+            <marker date="1483739304000" expanded="true" signature="6381:6593" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6627" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6628" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6689" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="8298:8396" ph="SELECT * FRO... tags" />
+            <marker date="1483739304000" expanded="true" signature="8455:8473" ph="SELECT * FRO... tags" />
+            <marker date="1483739304000" expanded="true" signature="9727:9848" ph="INSERT INTO tags... " />
+            <marker date="1483739304000" expanded="true" signature="9751:9771" ph="SELECT 'miss... " />
+            <marker date="1483739304000" expanded="true" signature="9751:9848" ph="SELECT 'miss... EXISTS" />
+            <marker date="1483739304000" expanded="true" signature="9790:9847" ph="SELECT 'miss... tags" />
+            <marker date="1483739304000" expanded="true" signature="10090:10186" ph="INSERT INTO tag_langs... " />
+            <marker date="1483739304000" expanded="true" signature="11041:11361" ph="INSERT INTO tag_centroid... " />
+            <marker date="1483739304000" expanded="true" signature="12166:12233" ph="SELECT centr... tag_centroid" />
+            <marker date="1483739304000" expanded="true" signature="13274:13354" ph="select id, n... tags" />
+            <marker date="1483739304000" expanded="true" signature="14640:15065" ph="with all_tag... " />
+            <marker date="1483739304000" expanded="true" signature="14784:14809" ph="select name all_tags" />
+            <marker date="1483739304000" expanded="true" signature="14877:14985" ph="select t.id,... tags" />
+            <marker date="1483739304000" expanded="true" signature="15021:15065" ph="select id, n... inserted" />
+            <marker date="1483739304000" expanded="true" signature="15869:16227" ph="WITH new_val... missingValue" />
+            <marker date="1483739304000" expanded="true" signature="15869:16249" ph="WITH new_val... missingValue" />
+            <marker date="1483739304000" expanded="true" signature="16100:16226" ph="SELECT name new_values" />
+            <marker date="1483739304000" expanded="true" signature="16100:16227" ph="SELECT name new_values" />
+            <marker date="1483739304000" expanded="true" signature="16171:16226" ph="SELECT 1 FRO... upsert" />
+            <marker date="1483739304000" expanded="true" signature="16875:16925" ph="INSERT INTO tag_langs... " />
+            <marker date="1483739304000" expanded="true" signature="17864:18248" ph="WITH new_val... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="18115:18248" ph="SELECT name,... new_values" />
+            <marker date="1483739304000" expanded="true" signature="18192:18247" ph="SELECT 1 FRO... upsert" />
+            <marker date="1483739304000" expanded="true" signature="19239:19263" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20082:20098" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20082:20103" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20784:20834" ph="SELECT * FRO... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="20893:20916" ph="SELECT * FRO... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="21904:22066" ph="SELECT count... " />
+            <marker date="1483739304000" expanded="true" signature="21904:22067" ph="SELECT count... articles" />
+            <marker date="1483739304000" expanded="true" signature="22542:22586" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="23060:23109" ph="SELECT id FR... tags" />
           </folding>
         </state>
       </provider>
@@ -1079,16 +1277,17 @@
         <state relative-caret-position="231">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="e#2716#2717#0" expanded="false" />
-            <element signature="e#2744#2745#0" expanded="false" />
-            <element signature="e#2775#2776#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2848#2849#0" expanded="false" />
-            <element signature="e#2886#2887#0" expanded="false" />
-            <element signature="e#2917#2918#0" expanded="false" />
-            <element signature="e#2944#2945#0" expanded="false" />
-            <element signature="e#2984#2985#0" expanded="false" />
-            <element signature="e#3016#3017#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2771#2772#0" expanded="false" />
+            <element signature="e#2889#2890#0" expanded="false" />
+            <element signature="e#2919#2920#0" expanded="false" />
+            <element signature="e#2962#2963#0" expanded="false" />
+            <element signature="e#3000#3001#0" expanded="false" />
+            <element signature="e#3031#3032#0" expanded="false" />
+            <element signature="e#3058#3059#0" expanded="false" />
+            <element signature="e#3098#3099#0" expanded="false" />
+            <element signature="e#3130#3131#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,22 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/exceptions/NoArticleForTagException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/exceptions/IllegalArticleIdException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7501897-3416-4771-9480-3b14bd783847/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1130,48 +1313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/DatabaseTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="127" column="20" lean-forward="false" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/Delegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AbstractTrainerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#510#713#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/RocchioTrainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1184,20 +1329,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trainerFactory/CentroidClassifierFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trainerFactory/CentroidClassifierFactory.java" />
     <entry file="file://$PROJECT_DIR$/tests/TestUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1206,26 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioTrainerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/TrainerAbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1246,72 +1364,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <marker date="1483562664000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
-            <marker date="1483562664000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
-            <marker date="1483562664000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
-            <marker date="1483562664000" expanded="true" signature="5290:5662" ph="SELECT t.id,... tags" />
-            <marker date="1483562664000" expanded="true" signature="6461:6725" ph="SELECT a.id,... articles" />
-            <marker date="1483562664000" expanded="true" signature="8594:8692" ph="SELECT * FRO... tags" />
-            <marker date="1483562664000" expanded="true" signature="8751:8769" ph="SELECT * FRO... tags" />
-            <marker date="1483562664000" expanded="true" signature="10023:10144" ph="INSERT INTO tags... " />
-            <marker date="1483562664000" expanded="true" signature="10047:10067" ph="SELECT 'miss... " />
-            <marker date="1483562664000" expanded="true" signature="10047:10144" ph="SELECT 'miss... EXISTS" />
-            <marker date="1483562664000" expanded="true" signature="10086:10143" ph="SELECT 'miss... tags" />
-            <marker date="1483562664000" expanded="true" signature="10386:10482" ph="INSERT INTO tag_langs... " />
-            <marker date="1483562664000" expanded="true" signature="11337:11657" ph="INSERT INTO tag_centroid... " />
-            <marker date="1483562664000" expanded="true" signature="12462:12529" ph="SELECT centr... tag_centroid" />
-            <marker date="1483562664000" expanded="true" signature="13570:13650" ph="select id, n... tags" />
-            <marker date="1483562664000" expanded="true" signature="14936:15361" ph="with all_tag... " />
-            <marker date="1483562664000" expanded="true" signature="15080:15105" ph="select name all_tags" />
-            <marker date="1483562664000" expanded="true" signature="15173:15281" ph="select t.id,... tags" />
-            <marker date="1483562664000" expanded="true" signature="15317:15361" ph="select id, n... inserted" />
-            <marker date="1483562664000" expanded="true" signature="16165:16523" ph="WITH new_val... missingValue" />
-            <marker date="1483562664000" expanded="true" signature="16165:16545" ph="WITH new_val... missingValue" />
-            <marker date="1483562664000" expanded="true" signature="16396:16522" ph="SELECT name new_values" />
-            <marker date="1483562664000" expanded="true" signature="16396:16523" ph="SELECT name new_values" />
-            <marker date="1483562664000" expanded="true" signature="16467:16522" ph="SELECT 1 FRO... upsert" />
-            <marker date="1483562664000" expanded="true" signature="17171:17221" ph="INSERT INTO tag_langs... " />
-            <marker date="1483562664000" expanded="true" signature="18160:18544" ph="WITH new_val... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="18411:18544" ph="SELECT name,... new_values" />
-            <marker date="1483562664000" expanded="true" signature="18488:18543" ph="SELECT 1 FRO... upsert" />
-            <marker date="1483562664000" expanded="true" signature="19535:19559" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="20378:20394" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="20378:20399" ph="DELETE FROM " />
-            <marker date="1483562664000" expanded="true" signature="21080:21130" ph="SELECT * FRO... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="21189:21212" ph="SELECT * FRO... tag_temp" />
-            <marker date="1483562664000" expanded="true" signature="22200:22362" ph="SELECT count... " />
-            <marker date="1483562664000" expanded="true" signature="22200:22363" ph="SELECT count... articles" />
-            <marker date="1483562664000" expanded="true" signature="22838:22882" ph="SELECT id FR... tags" />
-            <marker date="1483562664000" expanded="true" signature="23356:23405" ph="SELECT id FR... tags" />
-          </folding>
+        <state relative-caret-position="2">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/RocchioTrainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/exceptions/NoArticleForTagException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/exceptions/IllegalArticleIdException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/CentroidTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        <state relative-caret-position="315">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/AbstractTrainer.java">
+    <entry file="file://$PROJECT_DIR$/tests/AbstractTrainerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="133">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#750#751#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/TrainerAbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rocchio/RocchioTrainerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/AbstractTrainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DatabaseTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="177" column="24" lean-forward="false" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="24" />
+          <folding>
+            <marker date="1483739304000" expanded="true" signature="2494:2766" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="3909:3959" ph="SELECT name tags" />
+            <marker date="1483739304000" expanded="true" signature="4591:4640" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="5304:5527" ph="SELECT count... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6421" ph="SELECT a.id,... " />
+            <marker date="1483739304000" expanded="true" signature="6381:6593" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6627" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6628" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="6381:6689" ph="SELECT a.id,... articles" />
+            <marker date="1483739304000" expanded="true" signature="8298:8396" ph="SELECT * FRO... tags" />
+            <marker date="1483739304000" expanded="true" signature="8455:8473" ph="SELECT * FRO... tags" />
+            <marker date="1483739304000" expanded="true" signature="9727:9848" ph="INSERT INTO tags... " />
+            <marker date="1483739304000" expanded="true" signature="9751:9771" ph="SELECT 'miss... " />
+            <marker date="1483739304000" expanded="true" signature="9751:9848" ph="SELECT 'miss... EXISTS" />
+            <marker date="1483739304000" expanded="true" signature="9790:9847" ph="SELECT 'miss... tags" />
+            <marker date="1483739304000" expanded="true" signature="10090:10186" ph="INSERT INTO tag_langs... " />
+            <marker date="1483739304000" expanded="true" signature="11041:11361" ph="INSERT INTO tag_centroid... " />
+            <marker date="1483739304000" expanded="true" signature="12166:12233" ph="SELECT centr... tag_centroid" />
+            <marker date="1483739304000" expanded="true" signature="13274:13354" ph="select id, n... tags" />
+            <marker date="1483739304000" expanded="true" signature="14640:15065" ph="with all_tag... " />
+            <marker date="1483739304000" expanded="true" signature="14784:14809" ph="select name all_tags" />
+            <marker date="1483739304000" expanded="true" signature="14877:14985" ph="select t.id,... tags" />
+            <marker date="1483739304000" expanded="true" signature="15021:15065" ph="select id, n... inserted" />
+            <marker date="1483739304000" expanded="true" signature="15869:16227" ph="WITH new_val... missingValue" />
+            <marker date="1483739304000" expanded="true" signature="15869:16249" ph="WITH new_val... missingValue" />
+            <marker date="1483739304000" expanded="true" signature="16100:16226" ph="SELECT name new_values" />
+            <marker date="1483739304000" expanded="true" signature="16100:16227" ph="SELECT name new_values" />
+            <marker date="1483739304000" expanded="true" signature="16171:16226" ph="SELECT 1 FRO... upsert" />
+            <marker date="1483739304000" expanded="true" signature="16875:16925" ph="INSERT INTO tag_langs... " />
+            <marker date="1483739304000" expanded="true" signature="17864:18248" ph="WITH new_val... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="18115:18248" ph="SELECT name,... new_values" />
+            <marker date="1483739304000" expanded="true" signature="18192:18247" ph="SELECT 1 FRO... upsert" />
+            <marker date="1483739304000" expanded="true" signature="19239:19263" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20082:20098" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20082:20103" ph="DELETE FROM " />
+            <marker date="1483739304000" expanded="true" signature="20784:20834" ph="SELECT * FRO... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="20893:20916" ph="SELECT * FRO... tag_temp" />
+            <marker date="1483739304000" expanded="true" signature="21904:22066" ph="SELECT count... " />
+            <marker date="1483739304000" expanded="true" signature="21904:22067" ph="SELECT count... articles" />
+            <marker date="1483739304000" expanded="true" signature="22542:22586" ph="SELECT id FR... tags" />
+            <marker date="1483739304000" expanded="true" signature="23060:23109" ph="SELECT id FR... tags" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/TextTaggerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,7 +1,5 @@
 package base;
 
-import base.CentroidTrainer;
-
 /**
  * Created by Sermilion on 04/01/2017.
  */

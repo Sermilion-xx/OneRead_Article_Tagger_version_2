@@ -54,14 +54,14 @@ public class DatabaseTests {
     }
 
     @Test
-    public void getIdsAndNamesWhereNumberOfTagsMoreThanTest() {
-        HashMap<Integer, String> idsAndNames = Database.getInstance().getIdsAndNamesWhereNumberOfTagsMoreThan(101);
+    public void getTagCountsAndIdsWhereNumOfTagsMoreThanTest() {
+        List<Pair<Integer, Integer>> idsAndNames = Database.getInstance().getTagCountsAndIdsWhereNumOfTagsMoreThan(101);
         assertThat("An exception occurred", idsAndNames != null);
     }
 
     @Test
     public void getArticlesForTagTest() {
-        Pair<List<String>, Integer> articlesForTag = Database.getInstance().getArticlesForTag(23, 10, LANG, 0);
+        Pair<List<String>, Integer> articlesForTag = Database.getInstance().getArticlesForTag(1, 1000, LANG, 0);
         assertThat("An exception occurred", articlesForTag != null);
     }
 

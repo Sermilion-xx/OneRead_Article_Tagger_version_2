@@ -15,11 +15,10 @@ import java.util.stream.DoubleStream;
 public class RocchioTrainer extends AbstractTrainer {
 
     private static final int SAVE_STOP_WORDS = 0;
-    private int lastTagId;
+
     private Delegate delegate;
 
     public RocchioTrainer(String lang){
-        this.lastTagId = 0;
         this.lang = lang;
     }
 
@@ -53,6 +52,8 @@ public class RocchioTrainer extends AbstractTrainer {
         } else throw new IllegalArticleIdException("ID should be greater then -1") {
         };
     }
+
+
 
     /**
      * Method for converting list of arrays into 2D matrix
@@ -130,7 +131,4 @@ public class RocchioTrainer extends AbstractTrainer {
         return newCentroid;
     }
 
-    public void setLastTagId(int lastTagId) {
-        this.lastTagId = lastTagId;
-    }
 }

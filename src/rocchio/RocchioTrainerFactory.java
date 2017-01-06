@@ -25,11 +25,7 @@ public class RocchioTrainerFactory implements TrainerAbstractFactory {
 
     @Override
     public CentroidTrainer getTrainer() {
-        if(tagId == 0 && delegate == null){
-            return new RocchioTrainer(lang);
-        } else {
-            return new RocchioTrainer(tagId, lang, delegate);
-        }
+        return new RocchioTrainer(tagId, lang, delegate);
     }
 
 }

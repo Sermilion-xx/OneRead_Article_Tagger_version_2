@@ -14,6 +14,7 @@ public abstract class AbstractTrainer implements CentroidTrainer {
     protected String lang;
     protected int tagId;
     protected int divisor;
+    private int lastTagId;
 
     /**
      * Method to get term frequency weighing
@@ -77,6 +78,11 @@ public abstract class AbstractTrainer implements CentroidTrainer {
         return tagId;
     }
 
+    public void setTagId(int tagId) {
+        this.tagId = tagId;
+    }
+
+    @Override
     public int getDivisor() {
         return divisor;
     }
@@ -91,5 +97,15 @@ public abstract class AbstractTrainer implements CentroidTrainer {
 
     public void setLang(String lang) {
         this.lang = lang;
+    }
+
+    @Override
+    public int getLastTagId() {
+        return lastTagId;
+    }
+
+    @Override
+    public void setLastTagId(int lastTagId) {
+        this.lastTagId = lastTagId;
     }
 }

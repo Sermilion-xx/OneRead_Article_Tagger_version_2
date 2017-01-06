@@ -10,4 +10,9 @@ public interface CentroidTrainer {
     double[] calculateCentroid(List<String> articleList,
                                List<String>  allTerms,
                                double[] oldCentroid, int oldDivisor);
+
+    int getTagId();
+    int getLastTagId();
+    void setLastTagId(int lastTagId);
+    int getDivisor();
 }

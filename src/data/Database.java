@@ -147,44 +147,39 @@ public final class Database implements Serializable{
     }
 
     @Nullable
-    public HashMap<Integer, String> getIdsAndNamesWhereNumberOfTagsMoreThan(int threshold) {
-        HashMap<Integer, String> idsAndTags = new HashMap<>();
-        String query = "SELECT t.id, t.name, count(a.article_id) as article_counter " +
-                "FROM tags t " +
-                "INNER JOIN activities a ON t.id=a.model_id " +
-                "WHERE t.id=a.model_id AND a.model_type=3 " +
-                "GROUP BY t.id " +
-                "HAVING count(a.article_id) > " + threshold + " " +
-                "ORDER BY article_counter DESC";
+    public List<Pair<Integer, Integer>> getTagCountsAndIdsWhereNumOfTagsMoreThan(int threshold) {
+        List<Pair<Integer, Integer>> countsAndTags = new ArrayList<>();
+        String query = "SELECT count(aa.article_id) AS article_counter, t.id, t.name " +
+                "FROM activities aa INNER JOIN tags t ON aa.model_id=t.id AND aa.model_type=3 " +
+                "GROUP BY t.id HAVING count(aa.article_id) >"+threshold;
         try (Statement st = connection.createStatement();
              ResultSet rs = st.executeQuery(query)) {
             while (rs.next()) {
+                int article_counter = rs.getInt("article_counter");
                 int id = rs.getInt("id");
-                String name = rs.getString("name");
-                idsAndTags.put(id, name);
+                countsAndTags.add(new Pair<>(article_counter, id));
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            LOGGER.log(Level.INFO, "getIdsAndNamesWhereNumberOfTagsMoreThan: SQL exception was raised while performing SELECT: " + e.getMessage());
+            LOGGER.log(Level.INFO, "getTagCountsAndIdsWhereNumOfTagsMoreThan: SQL exception was raised while performing SELECT: " + e.getMessage());
             return null;
         }
-        return idsAndTags;
+        return countsAndTags;
     }
 
     @Nullable
-    public Pair<List<String>, Integer> getArticlesForTag(int tag_id, int limit, String lang, int lastId) {
+    public Pair<List<String>, Integer> getArticlesForTag(int tagId, int limit, String lang, int lastId) {
 
         Pair<List<String>, Integer> res;
         int localLastId = -1;
-        String query = "SELECT a.id, a.description, a.text FROM articles a, activities at  " +
-                "WHERE a.id = at.model_id AND at.model_type=3 " +
-                "AND at.model_id=" + tag_id + " AND a.id> " + lastId + " " +
-                "AND a.lang= '" + lang + "' LIMIT " + limit + "";
+        String query = "SELECT a.id, a.description, a.text, a.url " +
+                "FROM articles a INNER JOIN activities at ON  at.article_id=a.id " +
+                "WHERE at.model_type=3 AND at.model_id="+tagId+" AND at.model_id>"+lastId +
+                " LIMIT "+limit;
+//                "AND a.lang= '" + lang + "' LIMIT " + limit + "";
         try (Statement st = connection.createStatement();
              ResultSet rs = st.executeQuery(query)) {
             List<String> result = new ArrayList<>();
-//            "SELECT * FROM articles a INNER JOIN article_tags att ON a.id = att.article_id INNER JOIN blogs b ON b.id=a.blog_id" +
-//                    " WHERE att.tag_id=" + tag_id + " AND a.id>" + lastId + " AND b.lang='" + lang + "' LIMIT " + limit + ""
             while (rs.next()) {
                 String fulltext;
                 String text = rs.getString(3);

@@ -22,7 +22,7 @@ public class AbstractTrainerTests {
     public void initTrainer() {
         trainer = new AbstractTrainer(){
             @Override
-            public double[] calculateCentroid(List<String> articleList, List<String> allTerms) {
+            public double[] calculateCentroid(List<String> articleList, List<String> allTerms, double[] oldCentroid, int oldDivisor) {
                 return new double[0];
             }
         };
