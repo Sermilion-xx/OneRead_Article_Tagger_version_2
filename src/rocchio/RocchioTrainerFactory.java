@@ -9,12 +9,10 @@ import utility.Delegate;
  */
 public class RocchioTrainerFactory implements TrainerAbstractFactory {
 
-    private int    tagId;
     private String lang;
     private Delegate delegate;
 
-    public RocchioTrainerFactory(int tagId, String lang, Delegate delegate){
-        this.tagId = tagId;
+    public RocchioTrainerFactory(String lang, Delegate delegate){
         this.lang = lang;
         this.delegate = delegate;
     }
@@ -25,7 +23,7 @@ public class RocchioTrainerFactory implements TrainerAbstractFactory {
 
     @Override
     public CentroidTrainer getTrainer() {
-        return new RocchioTrainer(tagId, lang, delegate);
+        return new RocchioTrainer(lang, delegate);
     }
 
 }

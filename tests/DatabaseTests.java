@@ -61,7 +61,7 @@ public class DatabaseTests {
 
     @Test
     public void getArticlesForTagTest() {
-        Pair<List<String>, Integer> articlesForTag = Database.getInstance().getArticlesForTag(1, 1000, LANG, 0);
+        Pair<List<String>, Integer> articlesForTag = Database.getInstance().getArticlesForTag(1, 100, LANG, 0);
         assertThat("An exception occurred", articlesForTag != null);
     }
 

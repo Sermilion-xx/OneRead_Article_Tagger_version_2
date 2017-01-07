@@ -22,9 +22,8 @@ public class RocchioTrainer extends AbstractTrainer {
         this.lang = lang;
     }
 
-    public RocchioTrainer(int tagId, String lang, Delegate delegate) {
+    public RocchioTrainer(String lang, Delegate delegate) {
         this(lang);
-        this.tagId = tagId;
         this.delegate = delegate;
     }
 
@@ -45,8 +44,7 @@ public class RocchioTrainer extends AbstractTrainer {
                 divisor = tfwMatrix.length + oldDivisor;
                 double[] processedOldCentroid = calculateOldCentroid(oldDivisor, oldCentroid);
                 //getting old centroid
-                double[] centroid = mergeOldAndNewCentroids(processedOldCentroid, sumOfTfwColumns);
-                return centroid;
+                return mergeOldAndNewCentroids(processedOldCentroid, sumOfTfwColumns);
             } else throw new NoArticleForTagException("No articles for tag:" + tagId) {
             };
         } else throw new IllegalArticleIdException("ID should be greater then -1") {

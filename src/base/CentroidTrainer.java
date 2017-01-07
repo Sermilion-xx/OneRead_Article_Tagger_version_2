@@ -12,6 +12,7 @@ public interface CentroidTrainer {
                                double[] oldCentroid, int oldDivisor);
 
     int getTagId();
+    void setTagId(int tagId);
     int getLastTagId();
     void setLastTagId(int lastTagId);
     int getDivisor();
